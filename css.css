@@ -3,7 +3,16 @@
   height: 150px;
   border-style: solid;
   border-width: 24px;
+  border-color:rgba(0, 0, 0, 0);/*border color is set to transparent so the border "artifact" is not visible while the border image is loading*/
   border-image-repeat: stretch;
-  border-image-source: url(./images/se-rect-5-1B1B1BFF.svg);
+  border-image-source: url(./se-rect-5-1B1B1BFF.svg);
   border-image-slice: 24 fill;
+}
+
+#a{
+  color: white;
+}
+
+#b{
+  border-image-source: url(./se-rect-5.svg);
 }
