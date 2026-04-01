@@ -16,3 +16,8 @@
 #b{
   border-image-source: url(./se-rect-5.svg);
 }
+
+#c{
+  border-image-source: url(./se-rect-7.svg);
+  color: azure;
+}
